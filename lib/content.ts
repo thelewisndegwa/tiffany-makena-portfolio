@@ -37,17 +37,17 @@ export const siteContent = {
     full: "Tiffany Makena",
   },
   location: "USA × Kenya",
-  roles: ["MODEL", "CREATOR", "INFLUENCER"] as const,
-  descriptor: "Model / Creator / Influencer",
+  roles: ["MODEL", "CREATIVE DIRECTOR", "SOCIALITE"] as const,
+  descriptor: "Model / Creative Director / Socialite",
   seo: {
-    title: "Tiffany Makena — Model, Content Creator & Influencer",
+    title: "Tiffany Makena — Model, Creative Director & Socialite",
     description:
-      "Tiffany Makena is a fashion model, content creator, and influencer bridging USA and Kenya. Available for luxury campaigns, editorial work, brand partnerships, and creative collaborations.",
+      "Tiffany Makena is a fashion model, creative director, and socialite bridging USA and Kenya. Available for luxury campaigns, editorial work, brand partnerships, and creative collaborations.",
     keywords: [
       "Tiffany Makena",
       "Model",
-      "Content Creator",
-      "Influencer",
+      "Creative Director",
+      "Socialite",
       "Fashion",
       "Beauty",
       "Luxury",
@@ -70,7 +70,7 @@ export const siteContent = {
       "Fashion as language. Image as art.",
     ],
     paragraphs: [
-      "Tiffany Makena moves between the United States and Kenya with a perspective shaped by both continents — a duality that informs everything she creates. She is a model, content creator, and influencer working at the intersection of fashion, beauty, luxury, and culture.",
+      "Tiffany Makena moves between the United States and Kenya with a perspective shaped by both continents — a duality that informs everything she creates. She is a model, creative director, and socialite working at the intersection of fashion, beauty, luxury, and culture.",
       "Her work is defined by editorial precision and an instinct for visual storytelling. Whether on set for a campaign, in front of the camera for a beauty brand, or crafting content for a luxury partnership, Tiffany brings presence, intention, and a distinctly modern femininity.",
       "She is available for modeling, campaigns, brand partnerships, UGC, events, and creative collaborations with brands and creatives who value craft, aesthetics, and authentic storytelling.",
     ],
@@ -78,7 +78,7 @@ export const siteContent = {
       src: "/images/portraits/portrait-01.jpg",
       alt: "Tiffany Makena editorial portrait",
     },
-    metadata: ["MODEL", "CREATOR", "USA × KENYA", "EDITORIAL"],
+    metadata: ["MODEL", "CREATIVE DIRECTOR", "USA × KENYA", "EDITORIAL"],
   },
   disciplines: [
     {
@@ -91,19 +91,19 @@ export const siteContent = {
     },
     {
       id: "creator",
-      title: "CREATOR",
+      title: "CREATIVE DIRECTOR",
       description:
-        "Visual storytelling through short-form content, UGC, and social campaigns — crafted with the eye of an art director.",
+        "Creative direction across campaigns, editorials, and visual stories — shaping image, tone, and narrative from concept to frame.",
       image: "/images/work/work-02.jpg",
-      alt: "Tiffany Makena content creation behind the scenes",
+      alt: "Tiffany Makena creative direction behind the scenes",
     },
     {
       id: "influencer",
-      title: "INFLUENCER",
+      title: "SOCIALITE",
       description:
-        "Audience engagement and brand storytelling across fashion, beauty, and lifestyle — where influence meets intention.",
+        "A considered public presence across fashion, beauty, and culture — where society, style, and storytelling meet.",
       image: "/images/work/work-03.jpg",
-      alt: "Tiffany Makena lifestyle and fashion influencer portrait",
+      alt: "Tiffany Makena lifestyle and fashion socialite portrait",
     },
   ] satisfies Discipline[],
   selectedWork: {
@@ -156,7 +156,7 @@ export const siteContent = {
   },
   social: {
     heading: "BEYOND THE FRAME",
-    subheading: "CREATOR IDENTITY",
+    subheading: "CREATIVE DIRECTOR",
     description:
       "Fashion, beauty, lifestyle, and culture — captured and shared with an editorial sensibility. A digital presence as considered as the work itself.",
     handle: "@tiffany.makkena",

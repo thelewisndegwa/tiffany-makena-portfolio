@@ -17,7 +17,7 @@ export function Disciplines() {
           <SectionHeading
             index="03 / WHAT SHE DOES"
             title="DISCIPLINES"
-            subtitle="MODEL / CREATOR / INFLUENCER"
+            subtitle={siteContent.roles.join(" / ")}
           />
         </Reveal>
 

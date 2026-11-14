@@ -19,7 +19,7 @@ export function BeyondTheFrame() {
       <div className="mx-auto max-w-[1600px]">
         <Reveal>
           <SectionHeading
-            index="05 / CREATOR IDENTITY"
+            index="05 / CREATIVE DIRECTOR"
             title={siteContent.social.heading}
             subtitle={siteContent.social.subheading}
           />

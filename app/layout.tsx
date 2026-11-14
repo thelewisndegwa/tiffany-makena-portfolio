@@ -64,7 +64,7 @@ const jsonLd = {
   url: siteContent.seo.canonical,
   image: `${siteContent.seo.canonical}${siteContent.hero.image}`,
   nationality: ["American", "Kenyan"],
-  knowsAbout: ["Fashion", "Beauty", "Modeling", "Content Creation"],
+  knowsAbout: ["Fashion", "Beauty", "Modeling", "Creative Direction"],
 };
 
 export default function RootLayout({
